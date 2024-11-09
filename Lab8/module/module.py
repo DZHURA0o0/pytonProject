@@ -1,8 +1,6 @@
-
 __counter = 0  
 
 def suml(the_list):
-    """Функція для обчислення суми елементів списку."""
     global __counter
     __counter += 1
     the_sum = 0
@@ -11,7 +9,6 @@ def suml(the_list):
     return the_sum
 
 def prodl(the_list):
-    """Функція для обчислення добутку елементів списку."""
     global __counter
     __counter += 1
     prod = 1
@@ -19,7 +16,6 @@ def prodl(the_list):
         prod *= element
     return prod
 
-# Виконання тестів при запуску файлу безпосередньо
 if __name__ == "__main__":
     print("I prefer to be a module, but I can do some tests for you.")
     my_list = [i + 1 for i in range(5)]
